@@ -31,6 +31,18 @@ const productId: string | number | boolean = false // a variavel pode ser qualqu
 
 //Enum:
 
+enum Direction{
+    up = 1,
+    down =2
+}
+
+const direction = Direction.up
+//console.log(Direction)
 
 
 
+//Type Assertions
+
+const productName: any = 'Bone'
+
+let itemId = productName as string // Transforma o que for em string
